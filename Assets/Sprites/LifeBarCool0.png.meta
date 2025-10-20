@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 3a68060f6d51d9d458f21c9ce5637faf
+guid: 7c6b3dd885c6c7d4cb6cabd7eaf3cac6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4607322405230658016
-    second: lemon_hpBar-3_0
+      213: 1084786978882487967
+    second: LifeBarCool0_0
+  - first:
+      213: 8632252720245718053
+    second: LifeBarCool0_1
+  - first:
+      213: -3868872299808476942
+    second: LifeBarCool0_2
+  - first:
+      213: 8705553925996729159
+    second: LifeBarCool0_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lemon_hpBar-3_0
+      name: LifeBarCool0_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 49
-        width: 252
-        height: 242
+        x: 0
+        y: 0
+        width: 223
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02e378edea08f00c0800000000000000
-      internalID: -4607322405230658016
+      spriteID: f9682458200fd0f00800000000000000
+      internalID: 1084786978882487967
       vertices: []
       indices: 
       edges: []
@@ -125,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 68b6d5f4b26f3f44aa7cd7cb7ffd906f
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +144,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lemon_hpBar-3_0: -4607322405230658016
+      LifeBarCool0_0: 1084786978882487967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

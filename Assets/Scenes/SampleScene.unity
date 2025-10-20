@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 410297784}
   - component: {fileID: 410297783}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -363,10 +363,10 @@ MonoBehaviour:
   vidaText: {fileID: 1508276961}
   life: {fileID: 1762612034}
   lifeSprites:
-  - {fileID: -563337497275810389, guid: ad00fbab070af4d4fbc825fe4f4b1ddd, type: 3}
-  - {fileID: -4607322405230658016, guid: 3a68060f6d51d9d458f21c9ce5637faf, type: 3}
-  - {fileID: -8473316974752662505, guid: c14cd3f21fd6c9e4db04a789723c5c8d, type: 3}
-  - {fileID: 9179474124421630103, guid: 7d38ebc03cf13a146b6a0e20f2b405b3, type: 3}
+  - {fileID: 1084786978882487967, guid: 7c6b3dd885c6c7d4cb6cabd7eaf3cac6, type: 3}
+  - {fileID: -7909497474882880512, guid: 7a5d8dc56aec96f45b60793f377d2ffc, type: 3}
+  - {fileID: 2971387030852462047, guid: cd5491fc9b677ab49ade8f7b387773c2, type: 3}
+  - {fileID: 2407712497841584402, guid: 24e255bd2b35d2e4b8762bc3d6076c5d, type: 3}
 --- !u!50 &410297783
 Rigidbody2D:
   serializedVersion: 5
@@ -1300,7 +1300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.7425926}
-  m_AnchoredPosition: {x: -848, y: 154}
+  m_AnchoredPosition: {x: -851, y: 177}
   m_SizeDelta: {x: 100, y: -162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1762612034
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9179474124421630103, guid: 7d38ebc03cf13a146b6a0e20f2b405b3, type: 3}
+  m_Sprite: {fileID: 2407712497841584402, guid: 24e255bd2b35d2e4b8762bc3d6076c5d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

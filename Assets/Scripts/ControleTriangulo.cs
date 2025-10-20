@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
@@ -29,6 +30,11 @@ public class ControleTriangulo : MonoBehaviour
         move = inputSystemActions.Player.Move;
         inputSystemActions.Enable();
         vidaText.text = "Vidas: " + vida;
+    }
+
+    private void OnDisable()
+    {
+        inputSystemActions.Disable();
     }
 
     // Update is called once per frame
