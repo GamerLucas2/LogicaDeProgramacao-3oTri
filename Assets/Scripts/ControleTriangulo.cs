@@ -12,6 +12,8 @@ public class ControleTriangulo : MonoBehaviour
     [SerializeField] private float velocidade = 5;
     [SerializeField] private float velocidadeAngular = 30;
     [SerializeField] private TextMeshProUGUI score, vidaText;
+    [SerializeField] Image imagemVidas;
+
     [SerializeField] private Image life;
     [SerializeField] private Sprite[] lifeSprites;
 
@@ -64,6 +66,7 @@ public class ControleTriangulo : MonoBehaviour
             vida--;
             vidaText.text = "Vidas: " + vida;
             life.sprite = lifeSprites[vida];
+            imagemVidas.fillAmount = imagemVidas.fillAmount - 0.34f;
             if (vida <= 0)
                 SceneManager.LoadScene("GameOver");
         }
